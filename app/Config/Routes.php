@@ -2,6 +2,8 @@
 
 namespace Config;
 
+use App\Controllers\Pages;
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -32,13 +34,18 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Pages::index');
-$routes->get('/bangpeg', 'Pages::bangpeg');
-$routes->get('/tahunan', 'Pages::cutiTahunan');
-$routes->get('/alasanpenting', 'Pages::cutiAlasanPenting');
-$routes->get('/besar', 'Pages::cutiBesar');
-$routes->get('/melahirkan', 'Pages::cutiMelahirkan');
-$routes->get('/sakit', 'Pages::cutiSakit');
-$routes->get('/diluartanggungan', 'Pages::cutiDiluarTanggungan');
+$routes->add('/bangpeg', 'Pages::bangpeg');
+// $routes->add('/tahunan', 'Pages::cutiTahunan');
+// $routes->add('/alasanpenting', 'Pages::cutiAlasanPenting');
+// $routes->add('/besar', 'Pages::cutiBesar');
+// $routes->add('/melahirkan', 'Pages::cutiMelahirkan');
+// $routes->add('/sakit', 'Pages::cutiSakit');
+// $routes->add('/diluartanggungan', 'Pages::cutiDiluarTanggungan');
+$routes->add('/permohonan', 'Pages::permohonan');
+$routes->add('/proses', 'Pages::proses');
+$routes->add('/selesai', 'Pages::selesai');
+$routes->add('/pegawai', 'Pages::pegawai');
+$routes->add('/status', 'Pages::status');
 
 /*
  * --------------------------------------------------------------------

@@ -9,13 +9,13 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Cuti Dalam Proses</h1>
+                    <h1 class="m-0">Daftar Permohonan Cuti</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
-                    <!-- <ol class="breadcrumb float-sm-right">
+                    <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Daftar Permohonan Cuti</a></li>
-                        <li class="breadcrumb-item active">Cuti Alasan Penting</li>
-                    </ol> -->
+                        <li class="breadcrumb-item active">List</li>
+                    </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -29,7 +29,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Cuti Dalam Proses</h3>
+                            <h3 class="card-title">Daftar Permohonan</h3>
 
                             <div class="card-tools">
                                 <div class="input-group input-group-sm" style="width: 150px;">
@@ -55,7 +55,7 @@
                                         <th>Jabatan</th>
                                         <th>Jenis Cuti</th>
                                         <th>Tanggal Pengajuan</th>
-                                        <th>Status</th>
+                                        <th style="width: 40px">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -65,9 +65,9 @@
                                         <td>Toni, S.H.</td>
                                         <td>III/c</td>
                                         <td>Pranata Komputer</td>
-                                        <td>Cuti Alasan Penting</td>
+                                        <td>Cuti Tahunan</td>
                                         <td>13-06-2021</td>
-                                        <td>Selesai</td>
+                                        <td><button type="button" class="btn btn-block btn-default">Process</button></td>
                                     </tr>
                                     <tr>
                                         <td>2.</td>
@@ -75,9 +75,9 @@
                                         <td>ACO RAHMADI, S.H.</td>
                                         <td>II/c</td>
                                         <td>Pranata Komputer</td>
-                                        <td>Cuti Alasan Penting</td>
+                                        <td>Cuti Tahunan</td>
                                         <td>13-06-2021</td>
-                                        <td>Selesai</td>
+                                        <td><button type="button" class="btn btn-block btn-default">Process</button></td>
                                     </tr>
                                     <tr>
                                         <td>3.</td>
@@ -85,9 +85,9 @@
                                         <td>Damar Putra, S.H.</td>
                                         <td>III/c</td>
                                         <td>Pranata Komputer</td>
-                                        <td>Cuti Alasan Penting</td>
+                                        <td>Cuti Melahirkan</td>
                                         <td>13-06-2021</td>
-                                        <td>Selesai</td>
+                                        <td><button type="button" class="btn btn-block btn-default">Process</button></td>
                                     </tr>
                                     <tr>
                                         <td>4.</td>
@@ -95,9 +95,9 @@
                                         <td>Gerarld Nasution, S.H.</td>
                                         <td>II/c</td>
                                         <td>Pranata Komputer</td>
-                                        <td>Cuti Alasan Penting</td>
+                                        <td>Cuti Tahunan</td>
                                         <td>13-06-2021</td>
-                                        <td>Selesai</td>
+                                        <td><button type="button" class="btn btn-block btn-default">Process</button></td>
                                     </tr>
                                 </tbody>
                             </table>

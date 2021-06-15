@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>LAYANAN BIRO KEPEGAWAIAN</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -69,64 +69,27 @@
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-
             <li class="nav-item">
-              <a href="#" class="nav-link active">
-                <i class="nav-icon fas fa-copy"></i>
-                <p>
-                  Permohonan Cuti
-                  <i class="right fas fa-angle-left"></i>
-                </p>
+              <a href="http://localhost:8080/bangpeg" class="nav-link">
+                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <p>Dashboard</p>
               </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="http://localhost:8080/tahunan" class="nav-link ">
-                    <i class="far fa-calendar nav-icon"></i>
-                    <p>Cuti Tahunan</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://localhost:8080/alasanpenting" class="nav-link ">
-                    <i class="far fa-calendar nav-icon"></i>
-                    <p>Cuti Alasan Penting</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://localhost:8080/sakit" class="nav-link ">
-                    <i class="far fa-calendar nav-icon"></i>
-                    <p>Cuti Sakit</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://localhost:8080/melahirkan" class="nav-link ">
-                    <i class="far fa-calendar nav-icon"></i>
-                    <p>Cuti Melahirkan</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://localhost:8080/besar" class="nav-link ">
-                    <i class="far fa-calendar nav-icon"></i>
-                    <p>Cuti Besar</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="http://localhost:8080/diluartanggungan" class="nav-link ">
-                    <i class="far fa-calendar nav-icon"></i>
-                    <p>Cuti Di Luar Tanggungan</p>
-                  </a>
-                </li>
-              </ul>
             </li>
-
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="http://localhost:8080/permohonan" class="nav-link">
+                <i class="nav-icon fas fa-upload"></i>
+                <p>Permohonan Cuti</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="http://localhost:8080/proses" class="nav-link">
                 <i class="nav-icon fas fa-edit"></i>
                 <p>Dalam Proses</p>
               </a>
             </li>
 
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="http://localhost:8080/selesai" class="nav-link">
                 <i class="nav-icon fas fa-chart-pie"></i>
                 <p>Permohonan Selesai</p>
               </a>
@@ -185,6 +148,7 @@
   <script src="assets/dist/js/demo.js"></script>
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
   <script src="assets/dist/js/pages/dashboard.js"></script>
+
 </body>
 
 </html>

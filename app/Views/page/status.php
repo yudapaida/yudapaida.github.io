@@ -1,4 +1,4 @@
-<?= $this->extend('layout/template'); ?>
+<?= $this->extend('layout/template_pegawai'); ?>
 
 <?= $this->section('content'); ?>
 
@@ -9,7 +9,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Cuti Dalam Proses</h1>
+                    <h1 class="m-0">Status Permohonan Cuti</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <!-- <ol class="breadcrumb float-sm-right">
@@ -29,7 +29,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Cuti Dalam Proses</h3>
+                            <!-- <h3 class="card-title">Cuti Alasan Penting</h3> -->
 
                             <div class="card-tools">
                                 <div class="input-group input-group-sm" style="width: 150px;">
@@ -56,6 +56,7 @@
                                         <th>Jenis Cuti</th>
                                         <th>Tanggal Pengajuan</th>
                                         <th>Status</th>
+                                        <th style="width: 40px">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -68,6 +69,7 @@
                                         <td>Cuti Alasan Penting</td>
                                         <td>13-06-2021</td>
                                         <td>Selesai</td>
+                                        <td><button type="button" class="btn btn-block btn-default">Download Form</button></td>
                                     </tr>
                                     <tr>
                                         <td>2.</td>
@@ -78,6 +80,7 @@
                                         <td>Cuti Alasan Penting</td>
                                         <td>13-06-2021</td>
                                         <td>Selesai</td>
+                                        <td><button type="button" class="btn btn-block btn-default">Download Form</button></td>
                                     </tr>
                                     <tr>
                                         <td>3.</td>
@@ -87,7 +90,8 @@
                                         <td>Pranata Komputer</td>
                                         <td>Cuti Alasan Penting</td>
                                         <td>13-06-2021</td>
-                                        <td>Selesai</td>
+                                        <td>Dalam Proses</td>
+                                        <td><button type="button" class="btn btn-block btn-default" disabled>Download Form</button></td>
                                     </tr>
                                     <tr>
                                         <td>4.</td>
@@ -97,7 +101,8 @@
                                         <td>Pranata Komputer</td>
                                         <td>Cuti Alasan Penting</td>
                                         <td>13-06-2021</td>
-                                        <td>Selesai</td>
+                                        <td>Dalam Proses</td>
+                                        <td><button type="button" class="btn btn-block btn-default" disabled>Download Form</button></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -122,5 +127,4 @@
     <!-- /.content -->
 </div>
 <!-- /.content-wrapper -->
-
 <?= $this->endSection(); ?>

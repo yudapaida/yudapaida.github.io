@@ -70,26 +70,26 @@
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
             <li class="nav-item">
-              <a href="http://localhost:8080/bangpeg" class="nav-link">
+              <a href="<?= base_url('bangpeg'); ?>" class="nav-link">
                 <i class="nav-icon fas fa-tachometer-alt"></i>
                 <p>Dashboard</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="http://localhost:8080/permohonan" class="nav-link">
+              <a href="<?= base_url('permohonan'); ?>" class="nav-link">
                 <i class="nav-icon fas fa-upload"></i>
                 <p>Permohonan Cuti</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="http://localhost:8080/proses" class="nav-link">
+              <a href="<?= base_url('proses'); ?>" class="nav-link">
                 <i class="nav-icon fas fa-edit"></i>
                 <p>Dalam Proses</p>
               </a>
             </li>
 
             <li class="nav-item">
-              <a href="http://localhost:8080/selesai" class="nav-link">
+              <a href="<?= base_url('selesai'); ?>" class="nav-link">
                 <i class="nav-icon fas fa-chart-pie"></i>
                 <p>Permohonan Selesai</p>
               </a>

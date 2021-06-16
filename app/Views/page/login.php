@@ -61,7 +61,7 @@
             </div>
             <div class="row">
               <div class="col-4">
-                <a href="http://localhost:8080/bangpeg"><button type="submit" class="btn btn-primary btn-block">Login</button></a>
+                <a href="<?= base_url('bangpeg') ?>"><button type="submit" class="btn btn-primary btn-block">Login</button></a>
               </div>
             </div>
             <!-- </form> -->

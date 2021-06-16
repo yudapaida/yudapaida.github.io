@@ -70,14 +70,14 @@
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item">
-                            <a href="http://localhost:8080/pegawai" class="nav-link">
+                            <a href="<?= base_url('pegawai'); ?>" class="nav-link">
                                 <i class="nav-icon fas fa-edit"></i>
                                 <p>Pengajuan Cuti</p>
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="http://localhost:8080/status" class="nav-link">
+                            <a href="<?= base_url('status'); ?>" class="nav-link">
                                 <i class="nav-icon fas fa-chart-pie"></i>
                                 <p>Status Pengajuan</p>
                             </a>
